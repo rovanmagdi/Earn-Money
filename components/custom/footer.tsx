@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -17,9 +18,9 @@ const Footer = () => {
           <div>
             <p className="font-bold text-green-500 mb-3">About</p>
             <div className="flex flex-col gap-[10px] text-[13px]">
-              <span>FAQ</span>
-              <span>Privacy Policy</span>
-              <span>Terms of Services</span>
+              <Link href="/faq">FAQ</Link>
+              <Link href="/privacy">Privacy</Link>
+              <Link href="/terms">Terms of Services</Link>
             </div>
           </div>
           <div>

@@ -19,7 +19,6 @@ import {
 export default function Home() {
   return (
     <div className="bg-white text-black">
-      <Navbar />
       <Header />
       <LiveCashout />
       <HowItWork />
@@ -29,7 +28,6 @@ export default function Home() {
       <Feedbacks />
       <GetMoney />
       <Advertisers />
-      <Footer />
     </div>
   );
 }

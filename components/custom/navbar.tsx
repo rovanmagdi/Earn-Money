@@ -1,18 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
   return (
     <nav>
       <div className="flex justify-between fixed w-[90%] mx-[80px] mt-3 z-50 ">
-        <div className="col-9">
+        <Link href="/" className="col-9">
           <Image
             src="/assets/img/logo.svg"
             height={40}
             width={130}
             alt="logo"
           />
-        </div>
+        </Link>
         <div className=" px-4">
           <ul className="flex justify-content-end">
             <li className="s bg-green-500 p-2 rounded text-white mx-3 h-[40px]">
