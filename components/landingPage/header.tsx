@@ -66,7 +66,7 @@ const Header = () => {
             />
             <div className="mt-3 text-[12px]">
               Tiktok install
-              <p>$2</p>
+              <p className="font-bold text-[15px]">$2</p>
             </div>
           </div>
           <div className="border-2 rounded-[15px] fw-bold  p-3 w-[130px]  flex flex-col justify-center items-center">
@@ -77,7 +77,7 @@ const Header = () => {
               width={"60"}
             />
             <p className="mt-3 text-[12px]">Warpath:Ace…</p>
-            <p>$2</p>
+            <p className="font-bold">$2</p>
           </div>
           <div className="border-2 rounded-[15px] fw-bold  p-3 w-[130px]  flex flex-col justify-center items-center">
             <img
@@ -87,7 +87,7 @@ const Header = () => {
               width={"60"}
             />
             <p className="mt-3 text-[12px]">Monopoly Go!</p>
-            <p>$2</p>
+            <p className="font-bold">$2</p>
           </div>
         </div>
       </div>
