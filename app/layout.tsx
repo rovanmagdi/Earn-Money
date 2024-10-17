@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   //
   title: "Earn Monay",
   description: "A Earn Money Management System",
+  icons: ["/favicon.ico"],
 };
 
 export default function RootLayout({

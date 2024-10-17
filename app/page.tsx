@@ -7,28 +7,21 @@ import Header from "@/components/landingPage/header";
 import HowItWork from "@/components/landingPage/howItWork";
 import LiveCashout from "@/components/landingPage/liveCashout";
 import ManyWays from "@/components/landingPage/manyWays";
-import Footer from "@/components/custom/footer";
-import Navbar from "@/components/custom/navbar";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import Card from "@/components/custom/Card";
 
 export default function Home() {
   return (
-    <div className="bg-white text-black">
-      <Header />
-      <LiveCashout />
-      <HowItWork />
-      <EasilyReceive />
-      <Achievements />
-      <ManyWays />
-      <Feedbacks />
-      <GetMoney />
-      <Advertisers />
-    </div>
+    <>
+      <div className="bg-white text-black">
+        <Header />
+        <LiveCashout />
+        <HowItWork />
+        <EasilyReceive />
+        <Achievements />
+        <ManyWays />
+        <Feedbacks />
+        <GetMoney />
+        <Advertisers />
+      </div>
+    </>
   );
 }
