@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Carousel,
   CarouselContent,
@@ -20,18 +19,27 @@ const Advertisers = () => {
     "/assets/img/bybit.png",
     "/assets/img/hbomax.png",
   ];
-  return (
-    <section className="mt-[100px] my-[40px] mx-3">
-      <h1 className="font-bold text-[25px] mb-[40px] mx-10">Our Advertisers</h1>
 
-      <Carousel className="w-[1300px] mx-[150px] mb-[100px]">
-        <CarouselContent className="-ml-1">
+  return (
+    <section className="mt-24 mb-24 mx-3">
+      <h1 className="font-bold text-2xl mb-10 mx-5 text-center">
+        Our Advertisers
+      </h1>
+
+      <Carousel className="mx-auto w-full max-w-7xl">
+        <CarouselContent className="flex gap-4">
           {arr.map((img, index) => (
             <CarouselItem
               key={index}
-              className="pl-1 md:basis-1/2 lg:basis-[20%] mx-3"
+              className="flex-shrink-0 w-40 md:w-48 lg:w-56 mx-2 border border-green-500 rounded-lg py-[32px] h-32"
             >
-              <Image src={img} height={250} width={250} alt="logo" />
+              <Image
+                src={img}
+                height={250}
+                width={250}
+                alt="logo"
+                className="object-contain "
+              />
             </CarouselItem>
           ))}
         </CarouselContent>

@@ -17,7 +17,9 @@ const Navbar = () => {
         <div className=" px-4">
           <ul className="flex justify-content-end">
             <li className="s bg-green-500 p-2 rounded text-white mx-3 h-[40px]">
-              <a>Sign Up</a>
+              <Link href="https://earnmon.com/login" target="_blank">
+                Sign Up
+              </Link>
             </li>
             <li className="s text text-green-500 pt-2 bg-white px-3 rounded">
               <a>Login</a>

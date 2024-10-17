@@ -23,30 +23,31 @@ const LiveCashout = () => {
     "assets/img/us.svg fill.svg",
     "assets/img/us.svg fill.svg",
   ];
-  const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
-  );
+
+  // const plugin = React.useRef(
+  //   Autoplay({ delay: 2000, stopOnInteraction: true })
+  // );
+
   return (
-    <section className="p-3 bg-[#f5fcf7ff]">
-      <div className="flex items-center  gap-2  ml-[200px]">
+    <section className="p-3 bg-[#f5fcf7]">
+      <div className="flex items-center gap-2 mx-auto max-w-5xl">
         <div className="flex items-center gap-2">
-          <p className="font-bold bg-green-500 rounded-full h-[10px] w-[10px] text-green-500"></p>
+          <p className="font-bold bg-green-500 rounded-full h-[10px] w-[10px]"></p>
           <span className="font-bold text-green-500">Live Cashout</span>
         </div>
 
         <Carousel
-          className="w-[950px] mx-20 overflow-y-scrolls"
-          plugins={[plugin.current]}
+          className="w-full overflow-hidden"
+          // plugins={[plugin.current]}
         >
-          <CarouselContent className="-ml-1">
+          <CarouselContent className="flex gap-2">
             {arr.map((img, index) => (
               <CarouselItem
                 key={index}
-                className="pl-1 md:basis-[50%] lg:basis-[20%] mx-3"
+                className="flex-shrink-0 w-[150px] md:w-[200px] lg:w-[250px] mx-1"
               >
-                <div className="bg-white p-2 rounded-2 flex items-center gap-2 rounded-5">
-                  <img src="assets/img/us.svg fill.svg" alt="logo-half" />
-
+                <div className="bg-white p-2 rounded-lg flex items-center gap-2 w-[170px]">
+                  <img src={img} alt="logo-half" className="h-7 w-7" />
                   <span className="px-2 text-[#8C8C8A] text-[12px]">
                     AlaaSBL
                   </span>

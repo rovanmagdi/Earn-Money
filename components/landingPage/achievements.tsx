@@ -1,17 +1,21 @@
+import Link from "next/link";
 import React from "react";
 
 const Achievements = () => {
   return (
-    <section className="flex justify-around items-center  my-[100px]">
-      <div className="w-[300px]">
-        <h3 className="font-bold text-[40px]">Our 18 years of achievements</h3>
+    <section className="flex flex-col md:flex-row justify-around items-center my-[100px] px-5">
+      <div className="w-full md:w-[300px] text-center md:text-left">
+        <h3 className="font-bold text-[40px]">Our 18 Years of Achievements</h3>
         <p className="text-[12px] text-[#8C8C8A]">
-          With our super powers we have reached this
+          With our superpowers, we have reached this
         </p>
-        <div></div>
-        <div className=" bg-green-500 px-1 py-2 rounded text-white flex justify-center mt-3 w-[200px] text-[12px]">
+        <Link
+          href="https://earnmon.com/login"
+          target="_blank"
+          className="bg-green-500 px-1 py-2 rounded text-white flex justify-center mt-3 w-[200px] text-[12px] mx-auto md:mx-0 cursor-pointer"
+        >
           Start Earning Now
-        </div>
+        </Link>
       </div>
 
       <div className="flex flex-col gap-3">

@@ -15,6 +15,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Card from "@/components/custom/Card";
 
 export default function Home() {
   return (
