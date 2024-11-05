@@ -76,11 +76,10 @@ const Feedbacks = () => {
               className="pl-1 md:basis-1/2 lg:basis-1/3"
             >
               <div
-                className={`${
-                  index == current + 1
-                    ? "bg-green-500 text-white h-[344px]"
-                    : "bg-[#E7E7E7] h-[326px] mt-2"
-                } p-[40px] rounded-[20px] flex flex-col gap-3`}
+                className={`${index == current + 1
+                  ? "bg-green-500 text-white h-[344px]"
+                  : "bg-[#E7E7E7] h-[326px] mt-2"
+                  } p-[40px] rounded-[20px] flex flex-col gap-3`}
               >
                 <div className="flex items-center gap-3">
                   <img
@@ -98,8 +97,8 @@ const Feedbacks = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className=" border-[2px] border-green-500 w-16 h-16 top-[400px] left-[44%]" />
-        <CarouselNext className=" border-[2px] border-green-500 w-16 h-16 top-[400px] right-[44%]" />
+        <CarouselPrevious className=" border-[2px] border-green-500 w-16 h-16 top-[400px] lg:left-[44%] md:left-[30%] sm:left-[25%] " />
+        <CarouselNext className=" border-[2px] border-green-500 w-16 h-16 top-[400px] lg:right-[44%] md:right-[30%] sm:right-[2%]" />
         <div className="flex mt-4 gap-5"></div>
       </Carousel>
     </section>

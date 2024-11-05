@@ -26,26 +26,28 @@ const Advertisers = () => {
         Our Advertisers
       </h1>
 
-      <Carousel className="mx-auto w-full max-w-7xl">
+      <Carousel className="mx-auto  ">
         <CarouselContent className="flex gap-4">
           {arr.map((img, index) => (
             <CarouselItem
               key={index}
-              className="flex-shrink-0 w-40 md:w-48 lg:w-56 mx-2 border border-green-500 rounded-lg py-[32px] h-32"
+              className="mx-2 border border-green-500 rounded-lg py-[32px] h-32"
             >
               <Image
                 src={img}
                 height={250}
                 width={250}
                 alt="logo"
-                className="object-contain "
+              // className="object-contain "
               />
             </CarouselItem>
           ))}
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        </CarouselContent >
+        <CarouselPrevious className="hidden" />
+        <CarouselNext className="hidden" />
       </Carousel>
+
+
     </section>
   );
 };

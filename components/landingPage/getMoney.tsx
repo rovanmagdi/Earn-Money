@@ -9,7 +9,7 @@ const GetMoney = () => {
         <p>We Support Cash and Gift Cards</p>
         <div></div>
       </div>
-      <div className="flex justify-center items-center gap-5 pb-3">
+      <div className="flex justify-center items-center flex-wrap gap-5 pb-3">
         <img src="assets/img/bank.svg" />
         <div className="flex flex-col gap-3">
           <img src="assets/img/orange.svg" />

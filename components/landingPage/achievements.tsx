@@ -3,8 +3,8 @@ import React from "react";
 
 const Achievements = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-around items-center my-[100px] px-5">
-      <div className="w-full md:w-[300px] text-center md:text-left">
+    <section className="flex lg:flex-row md:flex-col lg:justify-around items-center my-[100px] px-5 flex-wrap">
+      <div className="w-full md:w-[300px] lg:text-center md:text-end ">
         <h3 className="font-bold text-[40px]">Our 18 Years of Achievements</h3>
         <p className="text-[12px] text-[#8C8C8A]">
           With our superpowers, we have reached this
@@ -12,14 +12,14 @@ const Achievements = () => {
         <Link
           href="https://earnmon.com/login"
           target="_blank"
-          className="bg-green-500 px-1 py-2 rounded text-white flex justify-center mt-3 w-[200px] text-[12px] mx-auto md:mx-0 cursor-pointer"
+          className="bg-green-500 px-1 py-2 rounded text-white flex justify-center mt-3 lg:w-[200px] w-[150px] text-[12px] md:mx-auto lg:mx-auto  cursor-pointer md:mb-5 sm:mb-5"
         >
           Start Earning Now
         </Link>
       </div>
 
-      <div className="flex flex-col gap-3">
-        <div className="flex gap-5">
+      <div className="flex flex-col  gap-3">
+        <div className="flex gap-5 flex-wrap">
           <div>
             <div>
               <img src="assets/img/Icon.svg" />
@@ -45,7 +45,7 @@ const Achievements = () => {
           </div>
         </div>
 
-        <div className="flex gap-5">
+        <div className="flex gap-5 flex-wrap">
           <div>
             <div>
               <img src="assets/img/Icon-2.svg" />

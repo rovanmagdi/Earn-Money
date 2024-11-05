@@ -6,7 +6,7 @@ const Advertise = () => {
   return (
     <div className="p-6 md:p-[90px]">
       <section className="flex flex-col gap-8 justify-center items-center text-center">
-        <img src={"assets/img/logo-half.svg"} alt="advertise" />
+        <Image src={"assets/img/logo.svg"} alt="advertise" height={150} width={150} />
         <p className="text-[24px] md:text-[35px] font-bold">
           We help you acquire new users and expand your brand awareness
         </p>
@@ -53,7 +53,7 @@ const Advertise = () => {
               src="assets/img/Business Plan-pana 1.svg"
               height={320}
               width={320}
-              alt="logo-half"
+              alt="logo"
             />
             <p className="text-green-500 font-bold mt-5">Advertisers</p>
           </div>
@@ -61,7 +61,7 @@ const Advertise = () => {
             src="assets/img/click.svg"
             height={100}
             width={100}
-            alt="logo-half"
+            alt="logo"
           />
           <div className="text-center">
             <img src="assets/img/Static website-pana 1.svg" alt="Earn Money" />
@@ -71,14 +71,14 @@ const Advertise = () => {
             src="assets/img/price.svg"
             height={100}
             width={100}
-            alt="logo-half"
+            alt="logo"
           />
           <div className="text-center">
             <Image
               src="assets/img/E-Wallet-pana 1.svg"
               height={250}
               width={250}
-              alt="logo-half"
+              alt="logo"
             />
             <p className="text-green-500 font-bold mt-5">Users</p>
           </div>

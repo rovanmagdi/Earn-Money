@@ -4,15 +4,15 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <div className=" p-[90px] flex flex-col gap-5">
-        <h2 className="text-green-500 font-bold text-[20px] font-pacifico ">
+      <div className="p-6 sm:p-12 md:p-20 lg:p-[90px] flex flex-col gap-5">
+        <h2 className="text-green-500 font-bold text-lg sm:text-xl lg:text-2xl font-pacifico">
           Our
         </h2>
-        <h1 className="font-bold text-[32px]">
+        <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl">
           Terms of
           <span className="border-b-[3px] border-green-500 mt-2"> Service</span>
         </h1>
-        <p className="w-[768px] leading-[45px]">
+        <p className="w-full sm:w-[80%] lg:w-[768px] leading-7 sm:leading-9 lg:leading-[45px]">
           These Website Terms of Services are entered into by and between you
           and Adgrand Limited ("Earn Money", "EarnMoney.com" or "We"). Adgrand
           Limited is a limited liability company of Hong Kong with an operation
@@ -23,7 +23,7 @@ const page = () => {
           register.
         </p>
         <Card title="1. User Account">
-          <ul>
+          <ul className="list-disc list-inside">
             <li>1.1. You should be an adult to register an account.</li>
             <li>
               1.2. Account password should be kept safe, and Earn Money is not
@@ -76,7 +76,7 @@ const page = () => {
         </Card>
 
         <Card title="3. Referrals">
-          <ul>
+          <ul className="list-disc list-inside">
             <li>
               3.1. You are allowed to refer an unlimited number of members.
             </li>
@@ -89,9 +89,8 @@ const page = () => {
         </Card>
 
         <Card title="4. Offers">
-          <ul>
+          <ul className="list-disc list-inside">
             <li>
-              {" "}
               4.1. It is not allowed to use VPN, proxy, or other means to abuse
               the offerwalls.
             </li>
@@ -114,7 +113,7 @@ const page = () => {
         </Card>
 
         <Card title="5. Payments">
-          <ul>
+          <ul className="list-disc list-inside">
             <li>
               5.1. Earn Money is not required to pay users who do not reach the
               minimum payout.
@@ -145,7 +144,7 @@ const page = () => {
         </Card>
 
         <Card title="6. Advertisement">
-          <ul>
+          <ul className="list-disc list-inside">
             <li>
               6.1. We do not accept sites that contain auto downloads, malicious
               code, frame breakers, gambling content, adult content, or promote
@@ -157,8 +156,9 @@ const page = () => {
             </li>
           </ul>
         </Card>
+
         <Card title="7. Account Suspension">
-          <ul>
+          <ul className="list-disc list-inside">
             <li>
               7.1. We have the right to suspend accounts for valid reasons if
               you violate our Terms of Service.
@@ -195,7 +195,7 @@ const page = () => {
         </Card>
 
         <Card title="8. Liability">
-          <ul>
+          <ul className="list-disc list-inside">
             <li>
               8.1. We are not responsible for any content served through
               advertisements. You use information here at your own risk.

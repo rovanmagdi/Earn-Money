@@ -11,7 +11,7 @@ const ManyWays = () => {
         </h1>
         <p className="text-lg md:text-xl">3 Steps to Get Money Easily</p>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center pb-5 mt-5 gap-10">
+      <div className="flex flex-col md:flex-row items-center justify-center pb-5 mt-5 gap-10 flex-wrap ">
         <div className="flex flex-col justify-center items-center w-[300px]">
           <Image
             src="/assets/img/login.svg"

@@ -14,7 +14,7 @@ const fontans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   //
-  title: "Earn Monay",
+  title: "Join to Cash",
   description: "A Earn Money Management System",
   icons: ["/favicon.ico"],
 };
@@ -34,9 +34,9 @@ export default function RootLayout({
       >
         <Toaster />
         <ThemeProvider attribute="class" defaultTheme="system">
-          <Navbar />
+
           {children}
-          <Footer />
+
         </ThemeProvider>
       </body>
     </html>

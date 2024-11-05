@@ -10,7 +10,7 @@ const Navbar = () => {
           <Image
             src="/assets/img/logo.svg"
             height={40}
-            width={130}
+            width={40}
             alt="logo"
           />
         </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="s text text-green-500 pt-2 bg-white px-3 rounded">
-              <a>Login</a>
+              <Link href="/login">Login</Link>
             </li>
           </ul>
         </div>
