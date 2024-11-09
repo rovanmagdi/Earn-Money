@@ -7,7 +7,7 @@ const HowItWork = () => {
       <div className="flex flex-col justify-center items-center pt-5 gap-3 text-center">
         <p className="text-green-500 font-bold">lorem ipsum</p>
         <h1 className="font-bold text-[45px]">How It Works</h1>
-        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+        <p className="mx-5">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-5 pb-5">
         <div className="flex flex-col items-center justify-center">

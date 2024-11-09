@@ -62,7 +62,7 @@ const Feedbacks = () => {
     <section className="my-[100px]">
       <div className="flex flex-col justify-center items-center pt-5 gap-3">
         <p className="text-green-500 font-bold">Users Feedbacks</p>
-        <h1 className="font-bold text-[40px]">
+        <h1 className="font-bold text-[40px] mx-5">
           What Our Clients Said About Us
         </h1>
         <p>Hear from Our Satisfied Clients</p>
@@ -97,8 +97,8 @@ const Feedbacks = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className=" border-[2px] border-green-500 w-16 h-16 top-[400px] lg:left-[44%] md:left-[30%] sm:left-[25%] " />
-        <CarouselNext className=" border-[2px] border-green-500 w-16 h-16 top-[400px] lg:right-[44%] md:right-[30%] sm:right-[2%]" />
+        <CarouselPrevious className=" border-[2px] border-green-500 w-16 h-16 top-[400px] left-56" />
+        <CarouselNext className=" border-[2px] border-green-500 w-16 h-16 top-[400px] right-80 " />
         <div className="flex mt-4 gap-5"></div>
       </Carousel>
     </section>

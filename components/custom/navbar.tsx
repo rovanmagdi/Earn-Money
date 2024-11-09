@@ -5,7 +5,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav>
-      <div className="flex justify-between fixed w-[90%] mx-[80px] mt-3 z-50 ">
+      <div className="flex justify-between fixed px-10  mt-3 z-50 w-full">
         <Link href="/" className="col-9">
           <Image
             src="/assets/img/logo.svg"
@@ -14,7 +14,7 @@ const Navbar = () => {
             alt="logo"
           />
         </Link>
-        <div className=" px-4">
+        <div >
           <ul className="flex justify-content-end">
             <li className="s bg-green-500 p-2 rounded text-white mx-3 h-[40px]">
               <Link href="https://earnmon.com/login" target="_blank">
