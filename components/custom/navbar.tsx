@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="flex justify-between fixed px-10  mt-3 z-50 w-full">
         <Link href="/" className="col-9">
           <Image
-            src="/assets/img/logo.svg"
+            src="/assets/gif/logo.gif"
             height={80}
             width={80}
             alt="logo"

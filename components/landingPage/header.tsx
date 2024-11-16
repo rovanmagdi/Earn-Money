@@ -16,10 +16,10 @@ const Header = () => {
         />
         <div className="relative z-10 flex flex-col justify-center items-center gap-8 text-center mt-12 md:mt-20">
           <Image
-            src="/assets/gif/logo.gif"
+            src="/assets/img/logo.svg"
             alt="logo"
-            height={100}
-            width={100}
+            height={200}
+            width={200}
             className="w-40 h-40"
           />
           <p className="text-2xl md:text-4xl font-bold">
