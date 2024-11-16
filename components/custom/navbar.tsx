@@ -9,8 +9,8 @@ const Navbar = () => {
         <Link href="/" className="col-9">
           <Image
             src="/assets/img/logo.svg"
-            height={40}
-            width={40}
+            height={80}
+            width={80}
             alt="logo"
           />
         </Link>

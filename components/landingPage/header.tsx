@@ -16,7 +16,7 @@ const Header = () => {
         />
         <div className="relative z-10 flex flex-col justify-center items-center gap-8 text-center mt-12 md:mt-20">
           <Image
-            src="/assets/img/logo.svg"
+            src="/assets/gif/logo.gif"
             alt="logo"
             height={100}
             width={100}
