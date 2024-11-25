@@ -46,17 +46,17 @@ const Footer = ({ res }: any) => {
             <p className="font-bold text-green-500 mb-3">About</p>
             <div className="flex flex-col gap-[10px] text-[13px]">
               <Link href="/faq" className={usePathname() == "/faq" ? "text-green-500 font-bold" : ""}>FAQ</Link>
+              <Link href="/" >Support</Link>
               <Link href="/privacy" className={usePathname() == "/privacy" ? "text-green-500 font-bold" : ""}>Privacy Policy</Link>
               <Link href="/terms" className={usePathname() == "/terms" ? "text-green-500 font-bold" : ""}>Terms of Service</Link>
-              <Link href="/advertise" className={usePathname() == "/advertise" ? "text-green-500 font-bold" : ""}>Advertise</Link>
+
             </div>
           </div>
 
           <div>
             <p className="font-bold text-green-500 mb-3">Services</p>
             <div className="flex flex-col gap-[10px] text-[13px]">
-              <span>Terms of Services</span>
-              <span>LeaderBoard</span>
+              <Link href="/advertise" className={usePathname() == "/advertise" ? "text-green-500 font-bold" : ""}>Advertise</Link>
             </div>
           </div>
 

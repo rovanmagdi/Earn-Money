@@ -18,8 +18,8 @@ const Header = () => {
           <Image
             src="/assets/img/logo.svg"
             alt="logo"
-            height={400}
-            width={400}
+            height={200}
+            width={200}
             className=""
           />
           <p className="text-2xl md:text-4xl font-bold">

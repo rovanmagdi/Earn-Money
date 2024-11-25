@@ -5,12 +5,12 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav>
-      <div className="flex justify-between fixed px-10  mt-3 z-50 w-full">
+      <div className="flex justify-between fixed px-10  py-3 z-50 w-full bg-white">
         <Link href="/" className="col-9">
           <Image
-            src="/assets/gif/logo.gif"
-            height={80}
-            width={80}
+            src="/assets/img/logo.svg"
+            height={50}
+            width={50}
             alt="logo"
           />
         </Link>

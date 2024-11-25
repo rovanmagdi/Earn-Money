@@ -120,6 +120,18 @@ const Carousel = React.forwardRef<
       };
     }, [api, onSelect]);
 
+    // Auto-scroll logic
+    React.useEffect(() => {
+      if (!api) return;
+
+      const interval = setInterval(() => {
+        api.scrollNext();
+      }, 3000); // Auto-scroll every 3 seconds
+
+      // Clear interval when component unmounts or user interacts
+      return () => clearInterval(interval);
+    }, [api]);
+
     return (
       <CarouselContext.Provider
         value={{
@@ -149,6 +161,7 @@ const Carousel = React.forwardRef<
   }
 );
 Carousel.displayName = "Carousel";
+
 
 const CarouselContent = React.forwardRef<
   HTMLDivElement,

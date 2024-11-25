@@ -13,18 +13,11 @@ const page = () => {
           <span className="border-b-[3px] border-green-500 mt-2"> Service</span>
         </h1>
         <p className="w-full sm:w-[80%] lg:w-[768px] leading-7 sm:leading-9 lg:leading-[45px]">
-          These Website Terms of Services are entered into by and between you
-          and Adgrand Limited ("Earn Money", "EarnMoney.com" or "We"). Adgrand
-          Limited is a limited liability company of Hong Kong with an operation
-          address of 7/F, Woon Lee Commercial Building, 7-9 Austin Ave, Tsim Sha
-          Tsui, Kowloon, Hong Kong. When registering at Earn Money, you confirm
-          you have read, understood, and accepted the following Terms of
-          Service. If you do not agree to any of these terms, you must not
-          register.
+          These Website Terms of Services are entered into by and between you and join2coin. When registering at join2coin, you confirm you have read, understood and accepted the following Terms of Service. If you do not agree to any of these terms, you must not register.
         </p>
         <Card title="1. User Account">
           <ul className="list-disc list-inside">
-            <li>1.1. You should be an adult to register an account.</li>
+            <li>1.1.You should be adult to register an account.</li>
             <li>
               1.2. Account password should be kept safe, and Earn Money is not
               liable for any loss of accounts.
