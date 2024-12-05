@@ -28,7 +28,7 @@ const EasilyReceive = () => {
                 change === 4
                   ? "assets/gif/sharingOpinions.gif"
                   : change === 1
-                    ? "assets/gif/Browsing.gif"
+                    ? "assets/gif/BrowsingLogo.gif"
                     : change === 2
                       ? "assets/gif/gaming.png"
                       : "assets/gif/try.png"
